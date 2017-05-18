@@ -12,8 +12,7 @@ uid: core/providers/in-memory/index
 ---
 # InMemory
 
-> [!NOTE]
-> This documentation is for EF Core. For EF6.x, see [Entity Framework 6](../../../ef6/index.md).
+数据库提供程序允许Entity Framework Core与内存数据库一起使用。这是非常有用的，当测试代码使用Entity Framework Core时。提供程序作为[EntityFramework GitHub project](https://github.com/aspnet/EntityFramework)的一部分维护。
 
 This database provider allows Entity Framework Core to be used with an in-memory database. This is useful when testing code that uses Entity Framework Core. The provider is maintained as part of the [EntityFramework GitHub project](https://github.com/aspnet/EntityFramework).
 
@@ -29,8 +28,10 @@ Install the [Microsoft.EntityFrameworkCore.InMemory NuGet package](https://www.n
 
 ## Get Started
 
+下列资源将帮助你启动此提供程序。
+
 The following resources will help you get started with this provider.
-* [Testing with InMemory](../../miscellaneous/testing/in-memory.md)
+* [Testing with InMemory](../../miscellaneous/testing/in-memory.html)
 
 * [UnicornStore Sample Application Tests](https://github.com/rowanmiller/UnicornStore/blob/master/UnicornStore/src/UnicornStore.Tests/Controllers/ShippingControllerTests.cs)
 

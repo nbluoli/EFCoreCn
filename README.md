@@ -13,9 +13,8 @@ http://efcore.tiemadang.com
 ## Entity Framework Core 本节未完成  `翻译：koeltp`
 ### Getting Started 本节未完成  `翻译：koeltp`
 
-
+## Querying Data 本章未完成      `翻译：koeltp`
 
 ## Saving Data 本章完成             `翻译：koeltp`
 
 ## Creating a Model 本节完成         `翻译：koeltp`
-###

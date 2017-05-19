@@ -12,16 +12,19 @@ uid: core/modeling/included-properties
 ---
 # Including & Excluding Properties
 
-> [!NOTE]
-> This documentation is for EF Core. For EF6.x, see [Entity Framework 6](../../ef6/index.md).
+包含一个属性在模型中，意味着EF拥有这个属性的元数据，并将尝试从数据库读取和写入值。
 
 Including a property in the model means that EF has metadata about that property and will attempt to read and write values from/to the database.
 
 ## Conventions
 
+按照约定，公有属性有一个getter和setter将包含在模型中。
+
 By convention, public properties with a getter and a setter will be included in the model.
 
 ## Data Annotations
+
+你可能使用数据注释从模型中排除一个属性。
 
 You can use Data Annotations to exclude a property from the model.
 
@@ -38,6 +41,8 @@ public class Blog
 ````
 
 ## Fluent API
+
+你可以使用Fluent API从模型中排序一个属性。
 
 You can use the Fluent API to exclude a property from the model.
 
